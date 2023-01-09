@@ -1,0 +1,21 @@
+# 配置编辑器使用习惯 https://editorconfig.org
+
+# 表示是最顶层的配置文件, 发现值为true时, 才会停止查找.editorconfig文件
+root = true
+
+# 使用中括号匹配多个文件
+[*]
+# 设置默认字符集
+charset = utf-8 
+# 2空格缩进
+indent_style = space
+indent_size = 2
+# Unix样式的换行符, 每个文件都以换行符结尾
+end_of_line = lf 
+insert_final_newline = true
+# 删除换行符之前的任何空白字符
+trim_trailing_whitespace = true
+
+[*.md]
+insert_final_newline = false
+trim_trailing_whitespace = false

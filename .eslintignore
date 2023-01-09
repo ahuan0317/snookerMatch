@@ -1,0 +1,6 @@
+# 忽略 eslint 不需要检查的目录文件
+
+build/*.js
+src/assets
+public
+dist
